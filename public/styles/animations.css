@@ -1,0 +1,31 @@
+@keyframes open-aside {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes close-aside {
+  from {
+    width: 50%;
+    opacity: 1;
+  }
+  to {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+#closed {
+  animation-name: open-aside;
+  animation-duration: .3s;
+}
+
+.opened {
+  animation-name: close-aside;
+  animation-duration: .3s;
+}

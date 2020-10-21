@@ -1,0 +1,79 @@
+.symptoms {
+  width: 100vw;
+  padding: 4.5rem;
+  background-color: #f8f5fc;
+}
+
+.symptoms p span {
+  color: #7137c2;
+  font-weight: 600;
+}
+
+.grid-list-symptoms {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 1.3rem;  
+}
+
+.grid-list-symptoms .list-card {
+  width: 100%;
+  height: 12rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 9px 17px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 9px 17px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 9px 17px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-card h4 {
+  font-size: 1.3rem;
+  font-family: Roboto, sans-serif;
+  color: #7137c2;
+  margin-bottom: .5rem;
+}
+
+.list-card p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.list-card .about-symptom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15rem;
+}
+
+.list-card img {
+  width: 0rem;
+  height: 0rem;
+}
+
+/*footer items*/
+.symptoms .footer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  text-align: left;
+}
+
+.symptoms .btn {
+  width: 15rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.symptoms .btn img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .8rem;
+} 

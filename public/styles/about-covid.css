@@ -1,0 +1,135 @@
+.about-covid {
+  width: 100vw;
+}
+
+.about-covid main {
+  padding: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-text-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* img container div*/
+.img-contianer {
+  width: clamp(25rem, 70%, 90%);
+  margin-top: 4rem;
+  position: relative;
+  background-color: rebeccapurple;
+}
+
+.img-contianer img {
+  width: 100%;
+}
+
+.play-video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+
+  width: 18rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.play-video p {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.play-video button {
+  background: #7137c2;
+  outline: none;
+  border: none;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background .2s;
+} 
+
+.play-video button:hover {
+  background: #7125c2;
+}
+
+.play-video button img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/*CHECK BOX DIV*/
+.checkbox-div {
+  margin-top: 2.5rem;  
+}
+
+.checkbox-div ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-div ul li {
+  display: flex;
+  align-items: center;
+  line-height: 3rem;
+}
+
+.checkbox-div ul li img{
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+}
+
+
+/*grid about figures | protection, symptoms, trataments, prevetion */
+
+.grid-about-figures {
+  margin: auto;
+  width: 80vw;
+  display: grid;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  grid-template-columns: 1fr;
+}
+
+.grid-about-figures div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+}
+
+.grid-about-figures div .title-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-covid div .title-about h2 {
+  font-family: Roboto, sans-serif;
+  color: #7125c2;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.grid-about-figures div .title-about p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.3rem;
+}
+
+.grid-about-figures div img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: .8rem;
+}

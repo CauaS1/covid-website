@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/*GLOBAL STYLES*/
+.title {
+  color: #7137c2;
+  font-size: 2.7rem;
+  font-weight: 800;
+  font-family: "Open-Sans", sans-serif;
+  line-height: 1;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #484650;
+  font-family: Roboto, sans-serif;
+  align-items: center;
+}
+
+.main-buttons {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  width: 18rem;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  background: #7137c2;
+  border-radius: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+  transition: background-color .3s;
+}
+
+.main-buttons:hover {
+  background-color: #7145c9
+}
+
+header ul li a, aside ul li a {
+  color: #484650;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+
+  transition: .3s;
+}
+
+header ul li a:hover, aside ul li a:hover {
+  color: #7137c2;
+}

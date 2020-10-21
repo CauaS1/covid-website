@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  margin: auto;
+  padding: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+header ul {
+  display: none;
+}
+
+header h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+header button, .top-aside button {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+header button img, .top-aside button img {
+  width: 20px;
+  height: 20px;
+}
+
+/*Page content*/
+
+
+/*aside ---------*/
+aside {
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  background: #fff;
+  
+  padding: 5px 15px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+
+aside .top-aside {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside h1 {
+  font-family: Roboto, sans-serif;
+  color: #111;
+  font-size: 2rem;
+}
+
+aside ul {
+  margin-top: 4rem;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+aside ul li {
+  list-style: none;
+}
+
+
+.page-content {
+  width: 100vw;
+  height: 100vh;
+  background: #f1ebf9;
+}
+
+.page-content main {
+  padding: 8rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: url('../images/illustration.png') no-repeat;
+  background-size: clamp(85%, 88%, 92%);
+  background-position: center 70%;
+}
+
+main #awareness {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #b190de;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+main p {
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.should-avoid-page {
+  width: 100vw;
+  padding: 4.5rem;
+  background-color: #fff;
+}
+
+.should-avoid-page div h4 {
+  font-size: 1.8rem;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.should-avoid-page div ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.should-avoid-page div ul li {
+  font-size: 1.7rem;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.8;
+}
+
+.should-avoid-page div ul li img {
+  width: 1.4rem;
+  margin-right: 1rem;
+}

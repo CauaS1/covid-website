@@ -1,0 +1,289 @@
+/* PAGE CONTENT ---------*/
+@media (min-width: 700px) { 
+  header ul {
+    display: flex;
+  }
+
+  header ul li {
+    list-style: none;
+    margin: 0 20px;
+  } 
+  
+    header ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #484650;
+    text-decoration: none;
+  }
+  
+  #selected {
+    font-weight: bold;
+  }
+
+  .open-header-button {
+    display: none;
+  }
+
+  /*main*/
+  .page-content .main-page-content{
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    background-size: clamp(50%,58%, 80%);
+    background-position: center right;
+  }
+
+  main #awareness {
+    font-size: 1.5rem;
+  } 
+
+  .main-page-content h2 {
+    font-size: clamp(3rem, 3.5rem, 4rem);
+  }
+
+  .main-page-content p {
+    text-align: left;
+    font-size: 1.7rem;
+    width: clamp(55rem, 60rem, 70rem);
+  }
+
+  .main-page-content a {
+    width: 25rem;
+    font-size: 1.2rem;
+  }
+}
+
+/*PAGE CONTENT | LARGE*/
+@media (min-width: 820px) {
+  header ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+
+/*STATISICS PAGE*/
+@media (min-width: 700px) {
+  .statistics {
+    margin-top: 4rem;
+  }
+  .about h1 {
+    font-size: 3.5rem;
+  }
+
+  .about p {
+    font-size: 1.7rem;
+  }
+
+  .grid-statistic {
+    margin-top: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+
+/*ABOUT COVID PAGE*/
+@media (min-width: 700px) {
+  .about-covid main .covid-text-about h1 {
+    font-size: 3.5rem;
+  }
+
+  .about-covid main .covid-text-about {
+    width: 100%;
+    padding: 0 4rem;
+  }
+
+  .covid-text-about p {
+    font-size: 1.7rem;
+  }
+
+  .checkbox-div ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .covid-text-about .checkbox-div ul li img {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+
+  /*grid --*/
+  .about-covid .grid-about-figures {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+  }
+
+  .about-covid .title-about h2 {
+    font-size: 2.2rem;
+  } 
+
+  .about-covid .title-about p {
+    font-size: 1.4rem;
+  }
+ 
+}
+
+/*ABOUT COVID PAGE | LARGE |*/
+@media (min-width: 1000px) {
+  .about-covid main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .about-covid main .covid-text-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2rem;
+  }
+
+  .covid-text-about p {
+    text-align: left;
+ }
+
+  .img-contianer {
+    width: clamp(50rem, 90%, 95%);
+  }
+
+  .about-covid .grid-about-figures {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-about-figures div {
+    height: 10rem;
+  }
+
+  .grid-about-figures div img {
+    width: 7rem;
+    height: 7em;
+  } 
+
+  .grid-about-figures .title-about h2 {
+    font-size: 4.8rem;
+  } 
+
+  .grid-about-figures .title-about p {
+    font-size: 1.7rem;
+  }
+}
+
+
+/*HOW O PREVENT PAGE */
+@media (min-width: 700px) {
+  .grid-blocks-tips {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+  }
+
+  .grid-blocks-tips .card .text-container p {
+    font-size: 1.3rem;
+  }
+}
+/*HOW TO PREVENT PAGE | LARGE*/
+@media (min-width: 1050px) {
+  .grid-blocks-tips .card {
+    width: clamp(17rem, 19rem, 25rem);
+  }
+
+  .how-to-prevent {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .how-to-prevent .how {
+    align-items: flex-start;
+  }
+
+  .how-to-prevent .how h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  } 
+
+  .how-to-prevent .how p {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
+
+/*HOW TO PREVENT PAGE | VARY LARGE*/
+@media(min-width: 1150px) {
+  .grid-blocks-tips .card {
+    width: 25rem;
+  }
+} 
+
+
+/*SHOULD AVOID PAGE*/
+@media(min-width: 700px) {
+  .should-avoid-page {
+    padding: 10rem 4.5rem;
+    background-image: url("../images/protect.png");
+    background-position: 75%;
+    background-size: 45%;
+    background-repeat: no-repeat;
+  }
+}
+
+/*SHOULD AVOID PAGE | LARGE */
+@media(min-width: 1000px) {
+  .should-avoid-page {
+    background-size: 30%;
+    background-position: 90%;
+  }
+
+  .should-avoid-page .list {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+/*SYMPTOMS PAGE */
+@media(min-width: 700px) {
+  .symptoms .grid-list-symptoms {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.3rem;
+  }
+
+  .list-card .text {
+    font-size: 1.3rem;
+  }
+
+  .symptoms .footer {
+    width: 78%;
+    margin: 4rem auto;
+    flex-direction: row;
+  }
+
+  .footer p {
+    width: 90%;
+  }
+}
+
+/*SYMPTOMS PAGE | LARGE*/
+@MEDIA(min-width: 1000px) {
+  .symptoms .grid-list-symptoms img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    margin-right: 1rem;
+  }
+}
+
+
+/*GLOBAL STYLES | SCREENS LOWER THAN 400PX*/
+@media (min-width: 350px) {
+  .title {
+    font-size: 3rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+

@@ -1,0 +1,33 @@
+.statistics {
+  width: 100vw;
+  padding: 4.5rem;
+}
+
+.grid-statistic {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);  
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-statistic div {
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-statistic div h2 {
+  line-height: 1.8;
+  font-family: Roboto, sans-serif;
+  font-size: 2.5em;
+  color: #111;
+}
+
+.grid-statistic div img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
