@@ -1,7 +1,7 @@
 # Covid Website
 This is a website made just to practice my main skills.
 
-I made this to put in practice HTML/CSS/JS, where I stayed some time without practing Web Developer, just studying Mobile Developer. <br>
+I made this to put in practice HTML/CSS/JS, where I stayed some time without practing Web Developer, I was just studying React Native. <br>
 I taked some screenshots from a template that I took in the Colorlib, I even look the source code, so, there some different things that I couldn't recreate.
 
 
